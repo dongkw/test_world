@@ -29,7 +29,7 @@ public class SwaggerConfig {
   private ApiInfo apiInfo() {
     return new ApiInfoBuilder()
         .title("world")
-        .description("test word")
+        .description("test world")
         .version("1.0")
         .build();
   }

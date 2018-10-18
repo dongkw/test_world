@@ -20,4 +20,4 @@ public class ApplicationConfig {
   private String username;
   @Value("${spring.datasource.mysql.password}")
   private String password;
-}
+  }
