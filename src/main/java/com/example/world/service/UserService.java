@@ -24,6 +24,10 @@ public class UserService {
     return userDao.unique(id);
   }
 
+  public void update(User user) {
+    userDao.updateById(user);
+  }
+
   public List<User> getByName(String name) {
     return userDao.getByName(name);
   }

@@ -1,5 +1,6 @@
 package com.example.world.bean;
 
+import java.io.Serializable;
 import lombok.Data;
 
 
@@ -8,7 +9,7 @@ import lombok.Data;
  * @data 2018/7/26 上午9:35
  */
 @Data
-public class User {
+public class User implements Serializable {
 
   private Long id;
   private String name;

@@ -6,5 +6,5 @@ package com.example.world.service.WeatherData.observer;
  */
 public interface DisplayElement {
 
-  public void display();
+  void display();
 }

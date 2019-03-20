@@ -45,5 +45,7 @@ dependencies {
     compileOnly('org.projectlombok:lombok')
     compile('org.flywaydb:flyway-core:4.2.0')
 
+    compile('org.springframework.boot:spring-boot-starter-data-redis')
+
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
