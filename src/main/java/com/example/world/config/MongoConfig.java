@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
  * @Author dkw[dongkewei@xinzhili.cn]
  * @data 2018/10/18 下午2:09
  */
-@Configuration
+//@Configuration
 public class MongoConfig {
   @Value("${spring.data.mongodb.uri}")
   private String uri;
